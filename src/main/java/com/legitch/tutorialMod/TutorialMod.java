@@ -28,7 +28,7 @@ public class TutorialMod
 
     public TutorialMod() {
         // Register the setup method for modloading
-        // changeee
+        // Added a comment
         IEventBus eventBus = FMLJavaModLoadingContext.get().getModEventBus();
         eventBus.addListener(this::setup);
 
